@@ -1,0 +1,18 @@
+{
+  "server_port": 3000,
+  "host_name": "127.0.0.1",
+  "db_path": "E:/Development/PiAutomation/database.db",
+  "sensor_check_seconds": 30,
+  "switches_in": {
+     "doorCheck": 1
+  },
+  "switches_out": {
+    "doorControl": 1
+  },
+  "sensors":{
+    "garage": {
+       "type": "22",
+       "pin": 23
+    }
+  }
+}
